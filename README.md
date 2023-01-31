@@ -34,7 +34,7 @@ It installes the following functionalities, and :
 
 ```console
 $ curl -s https://gitlab.com/asier.alkorta.formazioa/retro/-/raw/master/RomLibraryCuration/system/mister/install_mister_scripts.sh | bash /dev/stdin
-'''
+```
 
 4. Wait for the process to end, and You are done. 
 
