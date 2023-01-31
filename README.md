@@ -13,6 +13,8 @@ The following functionalities are available.
     * BGM configuration
     * Download PSX Mempacks
 
+Comand line execution is still needed, but the text based interface helps with the installation and configuration process, making it all easier.
+
 ## Installation
 
 1. Configure networking, 
@@ -46,10 +48,16 @@ $ curl -s https://raw.githubusercontent.com/devilschile2/retro-scripts/main/inst
 
 Enjoy!!!
 
+## TODO list
+ * Divide Installation in steps that are reboot aware
+ * Integrate savegame backup system
+ * Integrate mounting of an external Hard Drive
+ 
 
 ## Credits
 This code uses functionality from other mister community members, which really does all the heavy lifting.
 
 Thanks everyone at Mister_devel, theypsilon for the amazing update_all script, Mister addons, Pezz82 for the Psx mampacks, and of course every one at this amazing community.
- 
+
+
 
