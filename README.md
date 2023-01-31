@@ -1,6 +1,6 @@
 # Mister initial installation script
 
-This is a simple installation script for mister, that simplifies the installation and configuration of the different scripts.
+This is a simple installation script for mister, that simplifies the installation and configuration of the different scripts using a simple text based graphical interface.
 
 An internet connection is the only requirement.
 
@@ -48,8 +48,8 @@ Enjoy!!!
 
 
 ## Credits
-This code from other mister community members, who do all the real heavy lifting.
+This code uses functionality from other mister community members, which really does all the heavy lifting.
 
-Thanks everyone at Mister_devel, retrodriven Wallpapers, theypsilon for the amazing update_all script, Mister addons, Pezz82 for the Psx mampacks, adn of course every one at this amazing community.
+Thanks everyone at Mister_devel, theypsilon for the amazing update_all script, Mister addons, Pezz82 for the Psx mampacks, and of course every one at this amazing community.
  
 
