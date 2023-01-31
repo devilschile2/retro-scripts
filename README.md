@@ -1,4 +1,4 @@
-# Mister first installation script
+# Mister initial installation script
 
 This is a simple installation script for mister, that simplifies the installation and configuration of the different scripts.
 
