@@ -26,7 +26,7 @@ The following functionalities are available.
 
     For **Windows** users:
         To connect via ssh to Mister you can use the free putty program, available at:
-         https://www.putty.org/
+         (Putty:) [https://www.putty.org/]
 
         Once donwloaded, configure the host using your mister IP as the hostname, and "root" as the user name. 
         
