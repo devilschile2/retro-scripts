@@ -2,10 +2,16 @@
 
 This is a simple installation script for mister, that simplifies the installation and configuration of the different scripts.
 
-An internet connection is the only requirement, even though a very simple wifi configuration process is included.
+An internet connection is the only requirement.
 
-It installes the following functionalities, and :
-
+The following functionalities are available.
+    * Perform initial mister update
+    * Install Update_all script
+    * Configure timezone
+    * Cifs script download
+    * Audio normalization scripts
+    * BGM configuration
+    * Download PSX Mempacks
 
 ## Installation
 
