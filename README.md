@@ -39,7 +39,7 @@ The following functionalities are available.
 3. Once the network is up, copy and run the following command:
 
 ```console
-$ curl -s https://gitlab.com/asier.alkorta.formazioa/retro/-/raw/master/RomLibraryCuration/system/mister/install_mister_scripts.sh | bash /dev/stdin
+$ curl -s https://raw.githubusercontent.com/devilschile2/retro-scripts/main/install_mister_scripts.sh | bash /dev/stdin
 ```
 
 4. Wait for the process to end, and You are done. 
