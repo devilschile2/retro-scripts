@@ -7,23 +7,80 @@ global:
   cleanup_before_extract: false
 
 sources:
-  - name: NoIntro-snes
+  - name: NoIntro-Snes
     enabled: true
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=193"
     output_dir: "/romvault/DatRoot/No-Intro/SNES"
     cleanup_before_extract: true
 
-  - name: NoIntro-nes
+  - name: NoIntro-Nes
     enabled: true
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=165"
     output_dir: "/romvault/DatRoot/No-Intro/NES"
 
-  - name: NoIntro-megadrive
+  - name: NoIntro-Megadrive
     enabled: true
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=32"
     output_dir: "/romvault/DatRoot/No-Intro/MegaDrive"
 
-  - name: NoIntro-spectrum
+  - name: NoIntro-Spectrum
     enabled: false
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=48"
     output_dir: "/romvault/DatRoot/No-Intro/Spectrum"
+    
+  - name: 1G1R-Snes
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/SNES"
+    cleanup_before_extract: true
+    
+  - name: 1G1R-Nes
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headered)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/NES"
+    
+  - name: 1G1R-Megadrive
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Sega%20-%20Mega%20Drive%20-%20Genesis%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/MegaDrive"
+    
+  - name: 1G1R-32X
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Sega%20-%2032X%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/32X"
+
+  - name: 1G1R-SG1000
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Sega%20-%20SG-1000%20-%20SC-3000%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/SG1000"
+
+  - name: 1G1R-MasterSystem
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Sega%20-%20Master%20System%20-%20Mark%20III%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/SMS"
+
+  - name: 1G1R-GameGear
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Sega%20-%20Game%20Gear%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/GG"
+
+  - name: 1G1R-TurboGrafx
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/NEC%20-%20PC%20Engine%20-%20TurboGrafx-16%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/TurboGrafx"
+    
+  - name: 1G1R-SuperGrafx
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/NEC%20-%20PC%20Engine%20SuperGrafx%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/SuperGrafx"
+    
+    
+  - name: 1G1R-GameBoy
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Game%20Boy%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/GameBoy"
+    
+  - name: 1G1R-GameBoyColor
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Game%20Boy%20Color%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat    "
+    output_dir: "/romvault/DatRoot/1G1R/GameBoyColor"
