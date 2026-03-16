@@ -18,6 +18,30 @@ sources:
     url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
     output_dir: "/romvault/DatRoot/1G1R/SNES"
     cleanup_before_extract: true
+
+  - name: NoIntro-Satellaview
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-virgin-dat/no-intro/Nintendo%20-%20Satellaview%20(20260314-232536).dat"
+    output_dir: "/romvault/DatRoot/NoIntro/Satellaview"
+    cleanup_before_extract: true
+
+  - name: 1G1R-Satellaview
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Satellaview%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/Satellaview"
+    cleanup_before_extract: true
+
+  - name: NoIntro-SufamiTurbo
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-virgin-dat/no-intro/Nintendo%20-%20Sufami%20Turbo%20(20240622-035607).dat"
+    output_dir: "/romvault/DatRoot/NoIntro/SufamiTurbo"
+    cleanup_before_extract: true
+
+  - name: 1G1R-SufamiTurbo
+    enabled: false
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/SufamiTurbo"
+    cleanup_before_extract: true
     
   - name: NoIntro-Nes
     enabled: true
