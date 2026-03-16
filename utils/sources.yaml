@@ -1,0 +1,16 @@
+sources:
+  - name: snes
+    url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=193"
+    output_dir: "/romvault/DatRoot/No-Intro/SNES"
+
+  - name: nes
+    url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=165"
+    output_dir: "/romvault/DatRoot/No-Intro/NES"
+
+  - name: megadrive
+    url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=32"
+    output_dir: "/romvault/DatRoot/No-Intro/MegaDrive"
+
+  - name: spectrum
+    url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=48"
+    output_dir: "/romvault/DatRoot/No-Intro/Spectrum"
