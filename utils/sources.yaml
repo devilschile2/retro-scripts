@@ -7,6 +7,13 @@ global:
   cleanup_before_extract: false
 
 sources:
+
+  - name: Main-GithubFresh1G1R
+    enabled: true
+    url: "https://github.com/UnluckyForSome/Fresh1G1R/archive/refs/heads/main.zip"
+    output_dir: "/romvault/DatRoot/Main"
+    cleanup_before_extract: true
+
   - name: NoIntro-Snes
     enabled: true
     url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-virgin-dat/no-intro/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System%20(20260312-052357).dat"
