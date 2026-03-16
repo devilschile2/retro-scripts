@@ -9,7 +9,7 @@ global:
 sources:
   - name: NoIntro-Snes
     enabled: true
-    url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=193"
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-virgin-dat/no-intro/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System%20(20260312-052357).dat"
     output_dir: "/romvault/DatRoot/NoIntro/SNES"
     cleanup_before_extract: true
 
@@ -43,15 +43,25 @@ sources:
     output_dir: "/romvault/DatRoot/1G1R/SufamiTurbo"
     cleanup_before_extract: true
     
-  - name: NoIntro-Nes
-    enabled: true
-    url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=165"
-    output_dir: "/romvault/DatRoot/NoIntro/NES"
-    
-  - name: 1G1R-Nes
+  - name: NoIntro-NesHeadered
     enabled: true
     url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headered)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
-    output_dir: "/romvault/DatRoot/1G1R/NES"
+    output_dir: "/romvault/DatRoot/NoIntro/NESHeadered"
+    
+  - name: 1G1R-NESHeadered
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headered)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/NESHeadered"
+
+  - name: NoIntro-NesHeaderless
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-virgin-dat/no-intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless)%20(20260315-001756).dat"
+    output_dir: "/romvault/DatRoot/NoIntro/NesHeaderless"
+    
+  - name: 1G1R-NesHeaderless
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/NesHeaderless"
     
   - name: NoIntro-N64-ByteSwapped
     enabled: true
@@ -75,7 +85,7 @@ sources:
     
   - name: NoIntro-Megadrive
     enabled: true
-    url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=32"
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-virgin-dat/no-intro/Sega%20-%20Mega%20Drive%20-%20Genesis%20(20260221-141231).dat"
     output_dir: "/romvault/DatRoot/NoIntro/MegaDrive"
     
   - name: 1G1R-Megadrive
