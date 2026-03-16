@@ -74,7 +74,6 @@ sources:
     url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/NEC%20-%20PC%20Engine%20SuperGrafx%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
     output_dir: "/romvault/DatRoot/1G1R/SuperGrafx"
     
-    
   - name: 1G1R-GameBoy
     enabled: true
     url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Game%20Boy%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
@@ -82,5 +81,72 @@ sources:
     
   - name: 1G1R-GameBoyColor
     enabled: true
-    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Game%20Boy%20Color%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat    "
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Game%20Boy%20Color%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
     output_dir: "/romvault/DatRoot/1G1R/GameBoyColor"
+  
+  - name: 1G1R-Virtualboy
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Virtual%20Boy%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/Vectrex"
+    
+  - name: 1G1R-Atari2600
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Atari%20-%20Atari%205200%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/Atari5200"
+
+  - name: 1G1R-Atari5200
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Atari%20-%20Atari%207800%20(BIN)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/Atari7800"
+
+  - name: 1G1R-Atari7800
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Atari%20-%20Atari%207800%20(BIN)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/Atari7800"
+  
+  - name: 1G1R-AtariLynx
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Atari%20-%20Atari%20Lynx%20(LYX)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/AtariLynx"
+
+  - name: 1G1R-Coleco
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Coleco%20-%20ColecoVision%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/Coleco"
+    
+  - name: 1G1R-ChannelF
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Fairchild%20-%20Channel%20F%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/ChannelF"
+
+  - name: 1G1R-Intellivision
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Mattel%20-%20Intellivision%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/Intellivision"
+
+  - name: 1G1R-Vectrex
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/GCE%20-%20Vectrex%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/Vectrex"
+
+  - name: 1G1R-VideoPac
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Philips%20-%20Videopac%2B%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/VideoPac"
+
+  - name: 1G1R-WataraSupervision
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Watara%20-%20Supervision%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/Supervision"
+
+
+  - name: 1G1R-NeoGeoPocket
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/SNK%20-%20NeoGeo%20Pocket%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/NGP"
+
+  - name: 1G1R-NeoGeoPocketColor
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/SNK%20-%20NeoGeo%20Pocket%20Color%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/NGPC"
+    
