@@ -1,16 +1,29 @@
+global:
+  state_dir: "./state"
+  temp_dir: "./tmp"
+  log_level: "INFO"
+  timeout: 60
+  user_agent: "romvault-dat-updater/2.0"
+  cleanup_before_extract: false
+
 sources:
   - name: snes
+    enabled: true
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=193"
     output_dir: "/romvault/DatRoot/No-Intro/SNES"
+    cleanup_before_extract: true
 
   - name: nes
+    enabled: true
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=165"
     output_dir: "/romvault/DatRoot/No-Intro/NES"
 
   - name: megadrive
+    enabled: true
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=32"
     output_dir: "/romvault/DatRoot/No-Intro/MegaDrive"
 
   - name: spectrum
+    enabled: false
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=48"
     output_dir: "/romvault/DatRoot/No-Intro/Spectrum"
