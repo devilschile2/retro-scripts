@@ -7,23 +7,23 @@ global:
   cleanup_before_extract: false
 
 sources:
-  - name: snes
+  - name: NoIntro-snes
     enabled: true
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=193"
     output_dir: "/romvault/DatRoot/No-Intro/SNES"
     cleanup_before_extract: true
 
-  - name: nes
+  - name: NoIntro-nes
     enabled: true
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=165"
     output_dir: "/romvault/DatRoot/No-Intro/NES"
 
-  - name: megadrive
+  - name: NoIntro-megadrive
     enabled: true
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=32"
     output_dir: "/romvault/DatRoot/No-Intro/MegaDrive"
 
-  - name: spectrum
+  - name: NoIntro-spectrum
     enabled: false
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=48"
     output_dir: "/romvault/DatRoot/No-Intro/Spectrum"
