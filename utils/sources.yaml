@@ -54,6 +54,16 @@ sources:
     url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Family%20Computer%20Disk%20System%20(QD)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
     output_dir: "/romvault/DatRoot/1G1R/FDS"
 
+  - name: NoIntro-GnW
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-virgin-dat/no-intro/Nintendo%20-%20Game%20%26%20Watch%20(20241105-120946).dat"
+    output_dir: "/romvault/DatRoot/NoIntro/GnW"
+  
+  - name: 1G1R-GnW
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Game%20%26%20Watch%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/GnW"
+    
   - name: NoIntro-GBA
     enabled: true
     url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-virgin-dat/no-intro/Nintendo%20-%20Game%20Boy%20Advance%20(20260314-161424).dat"
