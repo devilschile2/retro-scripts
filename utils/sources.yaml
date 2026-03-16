@@ -29,6 +29,26 @@ sources:
     url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headered)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
     output_dir: "/romvault/DatRoot/1G1R/NES"
     
+  - name: NoIntro-N64-ByteSwapped
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-virgin-dat/no-intro/Nintendo%20-%20Nintendo%2064%20(ByteSwapped)%20(20260315-000324).dat"
+    output_dir: "/romvault/DatRoot/NoIntro/N64-ByteSwapped"
+    
+  - name: 1G1R-N64-ByteSwapped
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Nintendo%2064%20(ByteSwapped)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/N64-ByteSwapped"
+        
+  - name: NoIntro-N64-BigEndian
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-virgin-dat/no-intro/Nintendo%20-%20Nintendo%2064%20(BigEndian)%20(20260315-000324).dat"
+    output_dir: "/romvault/DatRoot/NoIntro/N64-BigEndian"
+    
+  - name: 1G1R-N64-BigEndian
+    enabled: true
+    url: "https://raw.githubusercontent.com/UnluckyForSome/Fresh1G1R/refs/heads/main/daily-1g1r-dat/McLean/no-intro/Nintendo%20-%20Nintendo%2064%20(BigEndian)%20(No-Intro%20-%20Fresh1G1R%20-%20McLean).dat"
+    output_dir: "/romvault/DatRoot/1G1R/N64-BigEndian"
+    
   - name: NoIntro-Megadrive
     enabled: true
     url: "https://datomatic.no-intro.org/index.php?page=download&op=dat&s=32"
