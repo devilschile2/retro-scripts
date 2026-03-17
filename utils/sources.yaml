@@ -13,10 +13,16 @@ sources:
     output_dir: "/romvault/DatRoot/MainNoIntro"
     cleanup_before_extract: true
     
-  - name: Main-GithubFresh1G1R
+  - name: Main-Github-Fresh1G1R
     enabled: true
     url: "https://github.com/UnluckyForSome/Fresh1G1R/archive/refs/heads/main.zip"
     output_dir: "/romvault/DatRoot/Main1G1R"
+    cleanup_before_extract: true
+  
+  - name: Main-Github-HTGD
+    enabled: true
+    url: "https://github.com/frederic-mahe/Hardware-Target-Game-Database/archive/refs/heads/master.zip"
+    output_dir: "/romvault/DatRoot/MainHTGD"
     cleanup_before_extract: true
 
   - name: NoIntro-Snes
